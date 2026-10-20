@@ -1,0 +1,24 @@
+# OS / editor temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.swp
+*.swo
+
+# Runtime caches and local environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+.venv/
+venv/
+node_modules/
+
+# Local credentials; do not store secrets in this public repository
+.env
+.env.*
+!.env.example
